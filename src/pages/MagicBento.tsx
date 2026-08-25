@@ -16,31 +16,31 @@ const MagicBento = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-24 gap-y-40">
 
           <SwissItem
-            value={10}
-            suffix="+"
-            label="Projects Completed"
-            description="Completed multiple projects from concept to final implementation."
-          />
-
-          <SwissItem
             value={2}
-            suffix="+"
-            label="Years Experience"
-            description="Building software with architectural intent and predictable system behavior."
+            suffix="×"
+            label="Hackathon Finalist"
+            description="JanNetra smart governance platform secured finalist standing competing against 100+ teams."
           />
 
           <SwissItem
-            value={500}
+            value={5}
             suffix="+"
-            label="Engineering Hours"
-            description="Engineering judgment refined through real-world constraints."
+            label="Web Applications"
+            description="Built responsive full-stack applications with MERN Stack, REST APIs & MVC architecture."
           />
 
           <SwissItem
-            value={1}
-            suffix="st"
-            label="Systems First"
-            description="Architecture precedes interface. Structure defines outcome."
+            value={40}
+            suffix="%"
+            label="AI Triage Reduction"
+            description="Automated problem classification and risk prioritization across 10+ civic issue categories."
+          />
+
+          <SwissItem
+            value={7}
+            suffix=".2"
+            label="Academic GPA"
+            description="B.Tech Computer Science & Engineering at United Institute of Technology, Prayagraj."
           />
 
         </div>

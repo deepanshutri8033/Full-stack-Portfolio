@@ -40,18 +40,53 @@ const About = () => {
     <section className="h-screen w-full bg-white text-black font-sans px-6 md:px-12 lg:px-16 overflow-hidden flex items-center justify-center relative">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-y-8 md:gap-x-12 w-full max-w-[1600px] mx-auto">
 
-        {/* Left Column: Context Label */}
+        {/* Left Column: Context Label & Profile Picture */}
         <motion.div
-          className="md:col-span-3 lg:col-span-3 pt-2"
+          className="md:col-span-4 lg:col-span-4 pt-2 flex flex-col justify-between gap-6"
           style={{ y: y1, opacity: opacity1 }}
         >
-          <h2 className="font-sans text-xs md:text-sm font-bold uppercase tracking-widest">
-            Background & Data
-          </h2>
+          <div>
+            <h2 className="font-sans text-xs md:text-sm font-bold uppercase tracking-widest mb-4">
+              Background & Data
+            </h2>
+
+            {/* Profile Image Frame */}
+            <div className="relative group overflow-hidden rounded-2xl border border-black/15 shadow-xl bg-neutral-100 max-w-[280px] md:max-w-full aspect-[4/5] flex items-center justify-center">
+              <img
+                src="/profile.jpg"
+                alt="Deepanshu Tripathi"
+                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105"
+                onError={(e) => {
+                  // Fallback if profile.jpg is not added yet
+                  e.currentTarget.style.display = 'none';
+                  const fallbackEl = e.currentTarget.parentElement?.querySelector('.profile-fallback');
+                  if (fallbackEl) fallbackEl.classList.remove('hidden');
+                }}
+              />
+              <div className="profile-fallback hidden absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-b from-neutral-100 to-neutral-200 text-black/70 p-6 text-center">
+                <div className="w-20 h-20 rounded-full bg-black/5 flex items-center justify-center mb-3 border border-black/10">
+                  <svg className="w-10 h-10 text-black/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                  </svg>
+                </div>
+                <span className="font-sans text-xs font-bold uppercase tracking-widest text-black/60">Your Photo Here</span>
+                <span className="font-sans text-[10px] text-black/40 mt-1">Add profile.jpg to /public</span>
+              </div>
+            </div>
+
+            {/* Sub-label */}
+            <div className="flex items-center gap-2 mt-3 text-xs font-semibold uppercase tracking-wider text-black/70">
+              <span className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-500 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+              </span>
+              <span>Deepanshu Tripathi</span>
+            </div>
+          </div>
         </motion.div>
 
         {/* Right Column: The Data List */}
-        <div className="md:col-span-9 lg:col-span-9 flex flex-col gap-10 md:gap-12">
+        <div className="md:col-span-8 lg:col-span-8 flex flex-col gap-10 md:gap-12">
 
           {/* 01. EDUCATION */}
           <motion.div style={{ y: y2, opacity: opacity2 }} className="flex flex-col gap-2">
@@ -60,10 +95,10 @@ const About = () => {
             </h3>
             <div className="flex flex-col">
               <p className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                Indian Institute of Information Technology, Kottayam
+                United Institute of Technology, Prayagraj
               </p>
-              <p className="font-sans text-xl md:text-2xl lg:text-3xl font-normal text-black/70 leading-tight tracking-tight">
-                B.Tech, Computer Science & Engineering (2023–2027)
+              <p className="font-sans text-lg md:text-xl lg:text-2xl font-normal text-black/70 leading-tight tracking-tight mt-1">
+                Bachelor of Technology – Computer Science & Engineering (2024–2028) · GPA: 7.2 / 10
               </p>
             </div>
           </motion.div>
@@ -74,24 +109,16 @@ const About = () => {
               02. Experience
             </h3>
 
-            <div className="flex flex-col gap-6">
-              {/* Job 1 */}
+            <div className="flex flex-col gap-4">
               <div>
                 <p className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                  aiRender Technologies
+                  Code Resite
                 </p>
-                <p className="font-sans text-xl md:text-2xl lg:text-3xl font-normal text-black/70 leading-tight tracking-tight">
-                  Full Stack Developer (May 2025 – May 2026)
+                <p className="font-sans text-lg md:text-xl lg:text-2xl font-normal text-black/70 leading-tight tracking-tight">
+                  Web Developer Intern (June 2025 – July 2025)
                 </p>
-              </div>
-
-              {/* Job 2 */}
-              <div>
-                <p className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                  Infosys Springboard
-                </p>
-                <p className="font-sans text-xl md:text-2xl lg:text-3xl font-normal text-black/70 leading-tight tracking-tight">
-                  Web Development Intern (Oct 2024 – Dec 2024)
+                <p className="font-sans text-sm md:text-base font-medium text-black/60 leading-normal tracking-tight mt-1">
+                  Built 5+ responsive MERN apps, delivered 3 client features (20% delivery boost), & fixed 15+ backend/frontend bugs.
                 </p>
               </div>
             </div>
@@ -100,14 +127,14 @@ const About = () => {
           {/* 03. FOCUS */}
           <motion.div style={{ y: y4, opacity: opacity4 }} className="flex flex-col gap-2">
             <h3 className="font-sans text-xs md:text-sm font-bold uppercase tracking-wide opacity-100 mb-1">
-              03. Focus
+              03. Technical Focus
             </h3>
-            <ul className="flex flex-col">
+            <ul className="flex flex-col gap-1">
               <li className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                Software Engineering Architecture
+                MERN Stack & Full-Stack Systems Architecture
               </li>
               <li className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                Artificial Intelligence & Process Automation
+                AI Classification, Triage & RESTful API Engineering
               </li>
             </ul>
           </motion.div>

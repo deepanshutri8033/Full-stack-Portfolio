@@ -50,13 +50,13 @@ const Footer = () => {
             Identification
           </h3>
           <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide leading-relaxed">
-            Mahesh P Pai
+            Deepanshu Tripathi
           </p>
           <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide leading-relaxed text-white/60">
-            Full Stack Engineer
+            Full-Stack Web Developer (MERN Stack)
           </p>
           <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide leading-relaxed text-white/60">
-            Kerala, India [Lat: 9.7, Long: 76.5]
+            Prayagraj, Uttar Pradesh, India
           </p>
         </motion.div>
 
@@ -67,13 +67,19 @@ const Footer = () => {
           </h3>
           <div className="flex flex-col gap-2">
             <a
-              href="mailto:maheshpailinked@gmail.com"
+              href="mailto:deepaktri8033@gmail.com"
               className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide hover:underline underline-offset-4 decoration-1 w-fit flex items-center gap-1"
             >
-              Email ↗
+              Email: deepaktri8033@gmail.com ↗
             </a>
             <a
-              href="https://www.linkedin.com/in/mahesh-p-pai-b0987b2a8/"
+              href="tel:+919453614816"
+              className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide hover:underline underline-offset-4 decoration-1 w-fit flex items-center gap-1"
+            >
+              Phone: +91-9453614816 ↗
+            </a>
+            <a
+              href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
               className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide hover:underline underline-offset-4 decoration-1 w-fit flex items-center gap-1"
@@ -81,7 +87,7 @@ const Footer = () => {
               LinkedIn ↗
             </a>
             <a
-              href="https://github.com/MAHESHPPAI"
+              href="https://github.com"
               target="_blank"
               rel="noopener noreferrer"
               className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide hover:underline underline-offset-4 decoration-1 w-fit flex items-center gap-1"
@@ -98,13 +104,13 @@ const Footer = () => {
               Colophon
             </h3>
             <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide text-white/60">
-              Built With: React / GSAP / Framer / Lenis
+              Built With: React / TypeScript / MERN / Tailwind / Framer
             </p>
             <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide text-white/60">
-              Typeface: Inter / Halvetica
+              2× Hackathon Finalist
             </p>
             <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide text-white/60">
-              Deployed On: Vercel
+              United Institute of Technology
             </p>
           </div>
 
@@ -121,8 +127,8 @@ const Footer = () => {
         style={{ opacity: textOpacity, scale: textScale }}
         className="w-full flex-1 flex flex-col justify-center items-center overflow-hidden select-none pb-4"
       >
-        <h1 className="font-sans font-black text-[23vw] leading-[0.8] text-white uppercase tracking-tighter flex items-start">
-          Mahesh
+        <h1 className="font-sans font-black text-[15vw] leading-[0.8] text-white uppercase tracking-tighter flex items-start">
+          Deepanshu
           <span className="text-xl md:text-4xl lg:text-6xl font-medium mt-[2vw] ml-1 opacity-60">
             ®
           </span>

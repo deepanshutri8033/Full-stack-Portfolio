@@ -40,7 +40,7 @@ const CursorFollower = () => {
 const BrandLogo = () => (
   <div className="fixed top-6 left-6 md:top-8 md:left-10 z-50 mix-blend-difference">
     <h1 className="font-sans font-black text-2xl md:text-4xl tracking-tighter text-white flex items-start">
-      MAHESH
+      DEEPANSHU
       <span className="text-xs md:text-lg font-medium ml-1 -mt-1 md:-mt-2">®</span>
     </h1>
   </div>
@@ -59,17 +59,17 @@ const AvailabilityBadge = () => (
       <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-green-400" />
     </span>
     <span className="font-sans font-black text-[9px] tracking-[0.25em] uppercase text-white">
-      Available for work
+      Available for Opportunities
     </span>
   </motion.div>
 );
 
 const SocialStrip = () => {
   const socials = [
-    { label: "GitHub", href: "https://github.com/MAHESHPPAI" },
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/mahesh-p-pai-b0987b2a8/" },
-    { label: "Instagram", href: "https://www.instagram.com/mahesh_3.14_/" },
-    { label: "Email", href: "mailto:maheshpailinked@gmail.com" },
+    { label: "GitHub", href: "https://github.com" },
+    { label: "LinkedIn", href: "https://linkedin.com" },
+    { label: "Phone", href: "tel:+919453614816" },
+    { label: "Email", href: "mailto:deepaktri8033@gmail.com" },
   ];
   return (
     <motion.div
@@ -84,7 +84,7 @@ const SocialStrip = () => {
         <a
           key={label}
           href={href}
-          target={href.startsWith("mailto") ? "_self" : "_blank"}
+          target={href.startsWith("mailto") || href.startsWith("tel") ? "_self" : "_blank"}
           rel="noopener noreferrer"
           title={label}
           className="group flex-shrink-0"
@@ -137,10 +137,9 @@ const SpinningCTA = () => (
 
 const MobileSocialStrip = () => {
   const socials = [
-    { label: "Github", icon: Github, href: "https://github.com/MAHESHPPAI" },
-    { label: "LinkedIn", icon: Linkedin, href: "https://www.linkedin.com/in/mahesh-p-pai-b0987b2a8/" },
-    { label: "Instagram", icon: Instagram, href: "https://www.instagram.com/mahesh_3.14_/" },
-    { label: "Email", icon: Mail, href: "mailto:maheshpailinked@gmail.com" },
+    { label: "Github", icon: Github, href: "https://github.com" },
+    { label: "LinkedIn", icon: Linkedin, href: "https://linkedin.com" },
+    { label: "Email", icon: Mail, href: "mailto:deepaktri8033@gmail.com" },
   ];
   return (
     <motion.div
@@ -211,8 +210,8 @@ const Index = () => {
                 <path d="M1 6h10M6 1l5 5-5 5" />
               </svg>
             </a>
-            <h1 className="font-sans font-bold text-7xl md:text-8xl lg:text-[9rem] xl:text-[11rem] leading-[0.85] tracking-tighter text-white uppercase text-left">
-              Driven<br />by logic
+            <h1 className="font-sans font-bold text-6xl md:text-8xl lg:text-[8.5rem] xl:text-[10rem] leading-[0.85] tracking-tighter text-white uppercase text-left">
+              Full-Stack<br />Engineer
             </h1>
           </motion.div>
         </div>
@@ -222,11 +221,11 @@ const Index = () => {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
-            className="col-span-1 md:col-span-5 lg:col-span-4"
+            className="col-span-1 md:col-span-6 lg:col-span-5"
           >
             <div className="w-12 h-[2px] bg-white mb-6 md:hidden" />
             <p className="font-sans text-xs md:text-sm font-medium text-white leading-relaxed tracking-wide uppercase text-left">
-              Building robust software, automating the complex and focused on transforming static systems into intelligent ones.
+              Passionate CS Undergraduate & 2× Hackathon Finalist with proven expertise in building production-grade MERN Stack web applications with REST APIs & AI integration.
             </p>
           </motion.div>
         </div>

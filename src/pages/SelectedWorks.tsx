@@ -6,39 +6,30 @@ import './ScrollStack.css';
 const projects = [
   {
     id: "001",
-    title: "Enterprise Resource Architecture",
-    stack: "React / Node.js / Firebase / Firestore",
-    description: "A full-stack ERP engine automating multi-currency invoicing, inventory logic, and international tax compliance for distributed teams.",
-    links: { live: "https://erpbeta.netlify.app", code: "#" },
+    title: "JanNetra – AI-Powered Smart Governance Platform",
+    stack: "React.js / FastAPI / MongoDB / Supabase / Recharts / REST API",
+    description: "Developed a full-stack civic issue reporting web app onboarding 47 beta users across 3 municipal wards with image upload and GPS location detection. Integrated AI problem classification across 10+ categories (40% triage reduction), real-time analytics panel with 6+ Recharts visualizations, and gamified leaderboard. 2× Hackathon Finalist competing against 100+ teams.",
+    links: { live: "#", code: "#" },
     image: "/p1.png",
-    cta: "Live Project"
+    cta: "2× Hackathon Finalist"
   },
   {
     id: "002",
-    title: "Geospatial Workforce Analytics",
-    stack: "React / Redux / Google Maps API/ Firebase",
-    description: "Real-time tracking system implementing location-based validation protocols and live route visualization for workforce monitoring.",
+    title: "Property Listing Web Application",
+    stack: "Node.js / Express.js / MongoDB / Cloudinary / Passport.js / Bootstrap",
+    description: "Built a full-stack property listing web app with complete CRUD operations supporting 120 seeded listings across 6 categories using Node.js & Express.js. Implemented secure Passport.js authentication for 85+ registered users and Cloudinary API for image uploads (up to 10 images/listing) following strict MVC architecture.",
     links: { live: "#", code: "#" },
     image: "/p2.png",
-    cta: "Live Project"
+    cta: "Featured Project"
   },
   {
     id: "003",
-    title: "OrderEase: Real-time online table food ordering system",
-    stack: "React / Firebase / Node.js",
-    description: "A real-time restaurant table ordering system that allows customers to place food orders directly from their table while enabling admins to manage menus, waiters, and assign waiters to customers for seamless service coordination.",
-    links: { live: "https://github.com/MAHESHPPAI/OrderEase", code: "#" },
-    image: "./p3.png",
-    cta: "View on Github"
-  },
-  {
-    id: "004",
-    title: "BusBuddy: Transit Management Logic",
-    stack: "React / Firebase / Springboot / ngrok",
-    description: "A real-time campus transportation platform that enables students to book seats and track buses live, drivers to stream GPS data during journeys, and transport officers to manage fleet availability, monitoring, and notifications seamlessly.",
-    links: { live: "https://github.com/MAHESHPPAI/Busbuddy-latest", code: "#" },
-    image: "./p4.png",
-    cta: "View on Github"
+    title: "Code Resite – MERN Client Web Applications",
+    stack: "React.js / Node.js / Express.js / MongoDB / Git",
+    description: "Developed 5+ responsive MERN Stack web applications in a collaborative team of 4 developers. Delivered 3 end-to-end features on live client projects reducing average delivery time by 20% and resolved 15+ critical frontend/backend bugs improving stability by 30%.",
+    links: { live: "#", code: "#" },
+    image: "/p3.png",
+    cta: "Internship Project"
   },
 ];
 

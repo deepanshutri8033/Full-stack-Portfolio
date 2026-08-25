@@ -20,8 +20,8 @@ const navItems: NavItem[] = [
 ];
 
 const socialItems: SocialItem[] = [
-  { label: "GitHub", href: "https://github.com" },
-  { label: "LinkedIn", href: "https://linkedin.com" },
+  { label: "GitHub", href: "https://github.com/deepanshutri8033" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/deepanshu-tripathi-0047b2368" },
   { label: "Phone", href: "tel:+919453614816" },
   { label: "Email", href: "mailto:deepaktri8033@gmail.com" },
 ];

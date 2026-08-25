@@ -79,7 +79,7 @@ const Footer = () => {
               Phone: +91-9453614816 ↗
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/deepanshu-tripathi-0047b2368"
               target="_blank"
               rel="noopener noreferrer"
               className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide hover:underline underline-offset-4 decoration-1 w-fit flex items-center gap-1"
@@ -87,7 +87,7 @@ const Footer = () => {
               LinkedIn ↗
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/deepanshutri8033"
               target="_blank"
               rel="noopener noreferrer"
               className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide hover:underline underline-offset-4 decoration-1 w-fit flex items-center gap-1"

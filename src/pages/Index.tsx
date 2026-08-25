@@ -66,8 +66,8 @@ const AvailabilityBadge = () => (
 
 const SocialStrip = () => {
   const socials = [
-    { label: "GitHub", href: "https://github.com" },
-    { label: "LinkedIn", href: "https://linkedin.com" },
+    { label: "GitHub", href: "https://github.com/deepanshutri8033" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/deepanshu-tripathi-0047b2368" },
     { label: "Phone", href: "tel:+919453614816" },
     { label: "Email", href: "mailto:deepaktri8033@gmail.com" },
   ];
@@ -137,8 +137,8 @@ const SpinningCTA = () => (
 
 const MobileSocialStrip = () => {
   const socials = [
-    { label: "Github", icon: Github, href: "https://github.com" },
-    { label: "LinkedIn", icon: Linkedin, href: "https://linkedin.com" },
+    { label: "Github", icon: Github, href: "https://github.com/deepanshutri8033" },
+    { label: "LinkedIn", icon: Linkedin, href: "https://www.linkedin.com/in/deepanshu-tripathi-0047b2368" },
     { label: "Email", icon: Mail, href: "mailto:deepaktri8033@gmail.com" },
   ];
   return (

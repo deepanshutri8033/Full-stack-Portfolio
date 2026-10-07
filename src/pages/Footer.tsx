@@ -53,10 +53,10 @@ const Footer = () => {
             Deepanshu Tripathi
           </p>
           <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide leading-relaxed text-white/60">
-            Full-Stack Web Developer (MERN Stack)
+            Software Engineer (Full-Stack / AI Systems)
           </p>
           <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide leading-relaxed text-white/60">
-            Prayagraj, Uttar Pradesh, India
+            India
           </p>
         </motion.div>
 
@@ -104,13 +104,13 @@ const Footer = () => {
               Colophon
             </h3>
             <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide text-white/60">
-              Built With: React / TypeScript / MERN / Tailwind / Framer
+              Built With: React / Next.js / TypeScript / LangGraph / PostgreSQL / Docker / AWS
             </p>
             <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide text-white/60">
               2× Hackathon Finalist
             </p>
             <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide text-white/60">
-              United Institute of Technology
+              United Institute of Technology, Prayagraj
             </p>
           </div>
 

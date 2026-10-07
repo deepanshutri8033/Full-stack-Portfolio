@@ -98,7 +98,7 @@ const About = () => {
                 United Institute of Technology, Prayagraj
               </p>
               <p className="font-sans text-lg md:text-xl lg:text-2xl font-normal text-black/70 leading-tight tracking-tight mt-1">
-                Bachelor of Technology – Computer Science & Engineering (2024–2028) · GPA: 7.2 / 10
+                Bachelor of Technology in Computer Science & Engineering · Graduation: 2028
               </p>
             </div>
           </motion.div>
@@ -115,10 +115,10 @@ const About = () => {
                   Code Resite
                 </p>
                 <p className="font-sans text-lg md:text-xl lg:text-2xl font-normal text-black/70 leading-tight tracking-tight">
-                  Web Developer Intern (June 2025 – July 2025)
+                  Software Engineering Intern (June 2025 – July 2025 | Remote)
                 </p>
                 <p className="font-sans text-sm md:text-base font-medium text-black/60 leading-normal tracking-tight mt-1">
-                  Built 5+ responsive MERN apps, delivered 3 client features (20% delivery boost), & fixed 15+ backend/frontend bugs.
+                  Contributed to full-stack web features across core project modules, refactored backend REST endpoints, and optimized database queries to reduce latency while improving route execution speed.
                 </p>
               </div>
             </div>
@@ -131,10 +131,10 @@ const About = () => {
             </h3>
             <ul className="flex flex-col gap-1">
               <li className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                MERN Stack & Full-Stack Systems Architecture
+                Full-Stack Engineering & Scalable AI Workflow Design
               </li>
               <li className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                AI Classification, Triage & RESTful API Engineering
+                Real-Time WebSockets, Multi-Agent Systems & Cloud Deployments
               </li>
             </ul>
           </motion.div>

@@ -19,28 +19,28 @@ const MagicBento = () => {
             value={2}
             suffix="×"
             label="Hackathon Finalist"
-            description="JanNetra smart governance platform secured finalist standing competing against 100+ teams."
+            description="Competed as a finalist in 2 hackathons, including JanNetra, a civic governance platform built against 100+ teams."
           />
 
           <SwissItem
-            value={5}
+            value={50}
             suffix="+"
-            label="Web Applications"
-            description="Built responsive full-stack applications with MERN Stack, REST APIs & MVC architecture."
+            label="Concurrent Connections"
+            description="Engineered WebSocket systems able to handle 50+ concurrent real-time requests with sub-100ms latency."
           />
 
           <SwissItem
             value={40}
             suffix="%"
-            label="AI Triage Reduction"
-            description="Automated problem classification and risk prioritization across 10+ civic issue categories."
+            label="Faster Generation"
+            description="Reduced code-generation and refactoring time by 40% through optimized LangGraph multi-agent orchestration."
           />
 
           <SwissItem
-            value={7}
-            suffix=".2"
-            label="Academic GPA"
-            description="B.Tech Computer Science & Engineering at United Institute of Technology, Prayagraj."
+            value={100}
+            suffix="%"
+            label="Prompt Guardrail Coverage"
+            description="Built input safety guardrails to block adversarial prompt injection attempts in research workflows."
           />
 
         </div>

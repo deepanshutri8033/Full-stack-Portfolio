@@ -211,7 +211,7 @@ const Index = () => {
               </svg>
             </a>
             <h1 className="font-sans font-bold text-6xl md:text-8xl lg:text-[8.5rem] xl:text-[10rem] leading-[0.85] tracking-tighter text-white uppercase text-left">
-              Full-Stack<br />Engineer
+              Software<br />Engineer
             </h1>
           </motion.div>
         </div>
@@ -225,7 +225,7 @@ const Index = () => {
           >
             <div className="w-12 h-[2px] bg-white mb-6 md:hidden" />
             <p className="font-sans text-xs md:text-sm font-medium text-white leading-relaxed tracking-wide uppercase text-left">
-              Passionate CS Undergraduate & 2× Hackathon Finalist with proven expertise in building production-grade MERN Stack web applications with REST APIs & AI integration.
+              Computer Science undergraduate and 2× Hackathon Finalist specializing in full-stack engineering, interactive frontend applications, and scalable AI workflows.
             </p>
           </motion.div>
         </div>

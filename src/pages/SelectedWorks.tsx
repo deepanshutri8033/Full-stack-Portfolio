@@ -6,30 +6,30 @@ import './ScrollStack.css';
 const projects = [
   {
     id: "001",
-    title: "JanNetra – AI-Powered Smart Governance Platform",
-    stack: "React.js / FastAPI / MongoDB / Supabase / Recharts / REST API",
-    description: "Developed a full-stack civic issue reporting web app onboarding 47 beta users across 3 municipal wards with image upload and GPS location detection. Integrated AI problem classification across 10+ categories (40% triage reduction), real-time analytics panel with 6+ Recharts visualizations, and gamified leaderboard. 2× Hackathon Finalist competing against 100+ teams.",
+    title: "NeuralPad — Real-Time AI Code Editor & Collaborative IDE",
+    stack: "React.js / Node.js / Redis / LangGraph / Socket.io / Docker / Nginx / AWS",
+    description: "Designed a decoupled backend using an Nginx API Gateway and Redis Pub/Sub, handling 50+ concurrent WebSockets requests with sub-100ms latency. Implemented a stateful multi-agent system using LangGraph to automate code refactoring and context-aware file generation, reducing generation time by 40% with real-time Socket.io token streaming.",
     links: { live: "#", code: "#" },
     image: "/p1.png",
-    cta: "2× Hackathon Finalist"
+    cta: "AI IDE"
   },
   {
     id: "002",
-    title: "Property Listing Web Application",
-    stack: "Node.js / Express.js / MongoDB / Cloudinary / Passport.js / Bootstrap",
-    description: "Built a full-stack property listing web app with complete CRUD operations supporting 120 seeded listings across 6 categories using Node.js & Express.js. Implemented secure Passport.js authentication for 85+ registered users and Cloudinary API for image uploads (up to 10 images/listing) following strict MVC architecture.",
+    title: "Agentica — Autonomous Multi-Tool AI Agent Platform",
+    stack: "Next.js 15 / PostgreSQL / Drizzle ORM / Inngest / Composio / OpenAI Agents SDK / Gemini / Clerk / Vercel",
+    description: "Built an autonomous agent builder using OpenAI Agents SDK and Gemini models, integrating Composio OAuth and Browserbase runtimes to execute live web tasks across 8+ external platforms. Engineered background event queues with Inngest for recurring agent jobs and deployed the platform on Vercel with secure Clerk sessions and Neon PostgreSQL persistence.",
     links: { live: "#", code: "#" },
     image: "/p2.png",
-    cta: "Featured Project"
+    cta: "Agent Platform"
   },
   {
     id: "003",
-    title: "Code Resite – MERN Client Web Applications",
-    stack: "React.js / Node.js / Express.js / MongoDB / Git",
-    description: "Developed 5+ responsive MERN Stack web applications in a collaborative team of 4 developers. Delivered 3 end-to-end features on live client projects reducing average delivery time by 20% and resolved 15+ critical frontend/backend bugs improving stability by 30%.",
+    title: "Enterprise Deep Research & Agentic RAG Platform",
+    stack: "Python / LangGraph / ChromaDB / FastAPI / AWS",
+    description: "Constructed a stateful multi-agent pipeline using LangGraph to route research queries across 5+ specialized vector store nodes, built a grounded RAG engine with post-retrieval verification and source citations, and exposed asynchronous FastAPI endpoints for low-latency streaming research outputs.",
     links: { live: "#", code: "#" },
     image: "/p3.png",
-    cta: "Internship Project"
+    cta: "RAG System"
   },
 ];
 

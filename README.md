@@ -4,16 +4,16 @@
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/deepanshutri8033)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:deepaktri8033@gmail.com)
 
-A high-performance personal portfolio showcasing full-stack web development (MERN Stack), AI integrations, and civic/property platforms.
+A high-performance portfolio showcasing full-stack engineering, AI systems, and real-time web products.
 
 ## 🚀 Overview
 
-Personal portfolio of **Deepanshu Tripathi** — Full-Stack Web Developer, MERN Stack Specialist, and 2× Hackathon Finalist. Featuring interactive animations, scroll stack project cards, and a sleek dark aesthetic.
+Personal portfolio of **Deepanshu Tripathi** — Software Engineer (Full-Stack / AI Systems), with expertise in interactive frontend applications, stateful multi-agent systems, WebSockets, background job queues, and cloud deployments.
 
 ### Key Features
-- **MERN Stack & AI Showcase**: Highlights of JanNetra (AI-Powered Smart Governance Platform) & Property Listing Web Application.
-- **Interactive UX**: Lenis smooth scrolling, vector bridge portal, and custom cursor animations.
-- **Comprehensive Resume Integration**: Education at United Institute of Technology, Prayagraj, Web Developer Internship at Code Resite, and core technical skills.
+- **AI & Full-Stack Showcase**: NeuralPad, Agentica, and Enterprise Deep Research platforms.
+- **Interactive UX**: Smooth scrolling, layered motion, and polished visual storytelling.
+- **Resume Integration**: Education, internship experience, technical skills, and competition achievements aligned with current profile details.
 
 ---
 
@@ -21,9 +21,9 @@ Personal portfolio of **Deepanshu Tripathi** — Full-Stack Web Developer, MERN 
 
 | Layer | Technologies |
 | :--- | :--- |
-| **Frontend** | React 18, TypeScript, Vite, Tailwind CSS, Bootstrap |
-| **Backend & AI** | Node.js, Express.js, FastAPI, REST APIs, Redis, Supabase, MongoDB |
-| **Animation & UX** | Framer Motion, GSAP, Lenis Scroll |
+| **Frontend** | React.js, Next.js 15, TypeScript, Tailwind CSS, Shadcn UI |
+| **Backend & AI** | Node.js, Express.js, FastAPI, REST APIs, WebSockets, Redis, Inngest, LangGraph |
+| **Databases & DevOps** | MongoDB, PostgreSQL, Drizzle ORM, Docker, AWS, Vercel, Nginx, GitHub Actions |
 
 ---
 
@@ -31,7 +31,7 @@ Personal portfolio of **Deepanshu Tripathi** — Full-Stack Web Developer, MERN 
 
 - **Email**: [deepaktri8033@gmail.com](mailto:deepaktri8033@gmail.com)
 - **Phone**: +91-9453614816
-- **Location**: Prayagraj, Uttar Pradesh, India
+- **Location**: India
 
 ---
 

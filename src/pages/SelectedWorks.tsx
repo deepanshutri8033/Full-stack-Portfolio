@@ -6,30 +6,39 @@ import './ScrollStack.css';
 const projects = [
   {
     id: "001",
-    title: "NeuralPad — Real-Time AI Code Editor & Collaborative IDE",
-    stack: "React.js / Node.js / Redis / LangGraph / Socket.io / Docker / Nginx / AWS",
-    description: "Designed a decoupled backend using an Nginx API Gateway and Redis Pub/Sub, handling 50+ concurrent WebSockets requests with sub-100ms latency. Implemented a stateful multi-agent system using LangGraph to automate code refactoring and context-aware file generation, reducing generation time by 40% with real-time Socket.io token streaming.",
-    links: { live: "#", code: "#" },
-    image: "/p1.png",
-    cta: "AI IDE"
+    title: "NeuralPad – Real-Time AI Code Editor & Collaborative IDE",
+    stack: "React / Node.js / Redis Pub-Sub / LangGraph / Docker / AWS EC2",
+    description: "Designed a decoupled microservices backend using Nginx API Gateway and Redis Pub/Sub, handling 50+ concurrent requests with sub-100ms latency. Built a stateful multi-agent system using LangGraph, reducing code generation time by 40% with real-time Socket.io streaming. Executed terminal commands safely inside isolated Docker runtimes and built GitHub Actions CI/CD workflows for AWS EC2.",
+    links: { live: "https://github.com/deepanshutri8033", code: "https://github.com/deepanshutri8033" },
+    image: "/neuralpad.jpg",
+    cta: "Real-Time AI IDE"
   },
   {
     id: "002",
-    title: "Agentica — Autonomous Multi-Tool AI Agent Platform",
-    stack: "Next.js 15 / PostgreSQL / Drizzle ORM / Inngest / Composio / OpenAI Agents SDK / Gemini / Clerk / Vercel",
-    description: "Built an autonomous agent builder using OpenAI Agents SDK and Gemini models, integrating Composio OAuth and Browserbase runtimes to execute live web tasks across 8+ external platforms. Engineered background event queues with Inngest for recurring agent jobs and deployed the platform on Vercel with secure Clerk sessions and Neon PostgreSQL persistence.",
-    links: { live: "#", code: "#" },
-    image: "/p2.png",
-    cta: "Agent Platform"
+    title: "Agentica – Autonomous Multi-Tool AI Agent Platform",
+    stack: "Next.js 15 / PostgreSQL / Drizzle ORM / Inngest / Composio / Gemini",
+    description: "Built an autonomous agent builder using OpenAI Agents SDK and Gemini models, integrating Composio OAuth and Browserbase for live web tasks across 8+ external platforms. Engineered cron-like background scheduling (hourly/daily/weekly) using Inngest event queues to process automated recurring agent jobs reliably. Full-stack deployment with Clerk auth, PostgreSQL (Neon DB) persistence via Drizzle ORM, deployed on Vercel.",
+    links: { live: "https://github.com/deepanshutri8033", code: "https://github.com/deepanshutri8033" },
+    image: "/agentica.jpg",
+    cta: "Autonomous Agents"
   },
   {
     id: "003",
     title: "Enterprise Deep Research & Agentic RAG Platform",
-    stack: "Python / LangGraph / ChromaDB / FastAPI / AWS",
-    description: "Constructed a stateful multi-agent pipeline using LangGraph to route research queries across 5+ specialized vector store nodes, built a grounded RAG engine with post-retrieval verification and source citations, and exposed asynchronous FastAPI endpoints for low-latency streaming research outputs.",
-    links: { live: "#", code: "#" },
-    image: "/p3.png",
-    cta: "RAG System"
+    stack: "Python / LangGraph (StateGraph) / ChromaDB / FastAPI / AWS",
+    description: "Constructed a stateful multi-agent pipeline using LangGraph (StateGraph) to dynamically route complex research queries across 5+ specialized vector store nodes. Built a ChromaDB vector retrieval engine featuring programmatic hallucination checks and page-level source citations, reducing false model outputs by 35%. Designed input safety guardrails and FastAPI asynchronous response streaming.",
+    links: { live: "https://github.com/deepanshutri8033", code: "https://github.com/deepanshutri8033" },
+    image: "/deep-research.jpg",
+    cta: "Agentic RAG Engine"
+  },
+  {
+    id: "004",
+    title: "JanNetra – AI-Powered Smart Civic Governance Platform",
+    stack: "React.js / FastAPI / MongoDB / Supabase / Recharts / REST API",
+    description: "Full-stack civic issue reporting web app onboarding 47 beta users across 3 municipal wards with image upload and GPS location detection. Integrated AI problem classification across 10+ categories (40% triage reduction) and real-time analytics panel with 6+ Recharts visualizations. Finalist competing against 100+ teams.",
+    links: { live: "https://github.com/deepanshutri8033", code: "https://github.com/deepanshutri8033" },
+    image: "/jannetra.jpg",
+    cta: "2× Hackathon Finalist"
   },
 ];
 

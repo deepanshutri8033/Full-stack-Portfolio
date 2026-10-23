@@ -111,15 +111,22 @@ const About = () => {
 
             <div className="flex flex-col gap-4">
               <div>
-                <p className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                  Code Resite
+                <div className="flex flex-wrap items-baseline justify-between gap-2">
+                  <p className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
+                    Code Resite
+                  </p>
+                  <span className="font-sans text-xs font-bold uppercase tracking-wider text-black/50">
+                    Remote
+                  </span>
+                </div>
+                <p className="font-sans text-base md:text-lg lg:text-xl font-semibold text-black/80 leading-tight tracking-tight mt-1">
+                  Software Engineering Intern <span className="font-normal text-black/60">(June 2025 – July 2025)</span>
                 </p>
-                <p className="font-sans text-lg md:text-xl lg:text-2xl font-normal text-black/70 leading-tight tracking-tight">
-                  Software Engineering Intern (June 2025 – July 2025 | Remote)
-                </p>
-                <p className="font-sans text-sm md:text-base font-medium text-black/60 leading-normal tracking-tight mt-1">
-                  Contributed to full-stack web features across core project modules, refactored backend REST endpoints, and optimized database queries to reduce latency while improving route execution speed.
-                </p>
+                <ul className="font-sans text-xs md:text-sm font-medium text-black/70 leading-relaxed tracking-normal mt-2 space-y-1.5 list-disc list-inside">
+                  <li>Contributed to full-stack web features (React.js, Node.js, Express, MongoDB) across project modules with a small team.</li>
+                  <li>Refactored backend REST API endpoints and optimized database queries to reduce response latency.</li>
+                  <li>Built modular MVC backend services and adhered to Git workflows for code reviews and feature integration.</li>
+                </ul>
               </div>
             </div>
           </motion.div>
@@ -129,12 +136,15 @@ const About = () => {
             <h3 className="font-sans text-xs md:text-sm font-bold uppercase tracking-wide opacity-100 mb-1">
               03. Technical Focus
             </h3>
-            <ul className="flex flex-col gap-1">
-              <li className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                Full-Stack Engineering & Scalable AI Workflow Design
+            <ul className="flex flex-col gap-1.5">
+              <li className="font-sans text-lg md:text-xl lg:text-2xl font-bold leading-tight tracking-tight">
+                Stateful Multi-Agent Systems & AI Workflows (LangGraph, OpenAI Agents SDK, RAG)
               </li>
-              <li className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                Real-Time WebSockets, Multi-Agent Systems & Cloud Deployments
+              <li className="font-sans text-lg md:text-xl lg:text-2xl font-bold leading-tight tracking-tight">
+                Microservices, Real-Time WebSockets & Cloud Deployments (Docker, AWS EC2, Nginx, Redis)
+              </li>
+              <li className="font-sans text-lg md:text-xl lg:text-2xl font-bold leading-tight tracking-tight">
+                Interactive High-Performance Frontend & Full-Stack Architecture (Next.js 15, React, TypeScript)
               </li>
             </ul>
           </motion.div>

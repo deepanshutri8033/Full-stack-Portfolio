@@ -2,48 +2,101 @@ import React, { useEffect, useRef, useState } from "react";
 
 const MagicBento = () => {
   return (
-    <section className="w-full bg-black text-white py-32">
+    <section className="w-full bg-black text-white py-32 border-t border-white/20">
       <div className="mx-auto max-w-7xl px-6">
 
         {/* Section Header */}
-        <div className="mb-24">
-          <h2 className="font-sans text-xs font-bold uppercase tracking-[0.2em]">
-            More About Me
-          </h2>
+        <div className="mb-24 flex flex-col md:flex-row md:items-end justify-between gap-6">
+          <div>
+            <h2 className="font-sans text-xs font-bold uppercase tracking-[0.25em] text-white/60 mb-2">
+              Impact & Key Metrics
+            </h2>
+            <p className="font-sans text-3xl md:text-5xl font-black uppercase tracking-tight text-white">
+              Measurable Performance.
+            </p>
+          </div>
+          <p className="font-sans text-xs md:text-sm text-white/50 max-w-md uppercase tracking-wider">
+            Proven track record across competitive hackathons, algorithmic problem solving, stateful AI workflows, and distributed microservices.
+          </p>
         </div>
 
         {/* Strict Swiss Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-24 gap-y-40">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-24 gap-y-28 pb-24 border-b border-white/15">
 
           <SwissItem
             value={2}
             suffix="×"
             label="Hackathon Finalist"
-            description="Competed as a finalist in 2 hackathons, including JanNetra, a civic governance platform built against 100+ teams."
+            description="JanNetra smart AI governance platform secured finalist standing competing against 100+ teams."
           />
 
           <SwissItem
-            value={50}
+            value={300}
             suffix="+"
-            label="Concurrent Connections"
-            description="Engineered WebSocket systems able to handle 50+ concurrent real-time requests with sub-100ms latency."
+            label="Algorithmic Challenges"
+            description="Solved 300+ complex algorithmic and data structures challenges across LeetCode and GeeksforGeeks."
           />
 
           <SwissItem
             value={40}
             suffix="%"
-            label="Faster Generation"
-            description="Reduced code-generation and refactoring time by 40% through optimized LangGraph multi-agent orchestration."
+            label="Code Gen & Triage Efficiency"
+            description="Accelerated code generation with stateful LangGraph multi-agent streaming and cut hallucination rate by 35%."
           />
 
           <SwissItem
-            value={100}
-            suffix="%"
-            label="Prompt Guardrail Coverage"
-            description="Built input safety guardrails to block adversarial prompt injection attempts in research workflows."
+            value={50}
+            suffix="+"
+            label="Concurrent Streaming"
+            description="Engineered sub-100ms microservices backend handling 50+ concurrent requests via Nginx API Gateway & Redis Pub/Sub."
           />
 
         </div>
+
+        {/* Awards & Certifications Showcase */}
+        <div className="pt-24">
+          <div className="mb-12">
+            <h3 className="font-sans text-xs font-bold uppercase tracking-[0.25em] text-white/60">
+              Awards & Certifications
+            </h3>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="border border-white/20 p-8 hover:border-white transition-colors duration-300 flex flex-col justify-between">
+              <div>
+                <span className="font-mono text-xs text-white/40 block mb-3">2026 · HACKATHON</span>
+                <h4 className="font-sans text-xl font-bold uppercase tracking-tight mb-2">2× Hackathon Finalist</h4>
+                <p className="font-sans text-sm text-white/70 leading-relaxed">
+                  Finalist competing against 100+ teams for building JanNetra, an AI civic governance and automated municipal triage platform.
+                </p>
+              </div>
+              <span className="font-mono text-xs text-white/50 mt-6 block">JanNetra Platform</span>
+            </div>
+
+            <div className="border border-white/20 p-8 hover:border-white transition-colors duration-300 flex flex-col justify-between">
+              <div>
+                <span className="font-mono text-xs text-white/40 block mb-3">2025 · CERTIFICATION</span>
+                <h4 className="font-sans text-xl font-bold uppercase tracking-tight mb-2">Full-Stack & DSA</h4>
+                <p className="font-sans text-sm text-white/70 leading-relaxed">
+                  Apna College certification covering production web development, distributed architecture, and advanced Data Structures & Algorithms.
+                </p>
+              </div>
+              <span className="font-mono text-xs text-white/50 mt-6 block">Apna College Programs</span>
+            </div>
+
+            <div className="border border-white/20 p-8 hover:border-white transition-colors duration-300 flex flex-col justify-between">
+              <div>
+                <span className="font-mono text-xs text-white/40 block mb-3">2025 · COMPETITIVE</span>
+                <h4 className="font-sans text-xl font-bold uppercase tracking-tight mb-2">Competitive Programming</h4>
+                <p className="font-sans text-sm text-white/70 leading-relaxed">
+                  Solved 300+ algorithmic challenges across LeetCode & GeeksforGeeks, focusing on graph algorithms, dynamic programming, and system optimization.
+                </p>
+              </div>
+              <span className="font-mono text-xs text-white/50 mt-6 block">LeetCode & GFG (300+)</span>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
   );
